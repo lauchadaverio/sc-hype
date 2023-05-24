@@ -176,7 +176,7 @@ main {
     main .productos_titulo p {
       font-size: 20px;
       margin-bottom: 10px; }
-  main section .galeria-productos {
+  main .galeria-productos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -185,30 +185,30 @@ main {
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px; }
-    main section .galeria-productos .producto-card {
+    main .galeria-productos .producto-card {
       width: 250px;
       height: 360px;
       border: 3px black solid;
       text-align: center;
       margin-bottom: 10px; }
-      main section .galeria-productos .producto-card img {
+      main .galeria-productos .producto-card img {
         width: 100%;
         height: 270px; }
-      main section .galeria-productos .producto-card h3 {
+      main .galeria-productos .producto-card h3 {
         font-size: 15px;
         color: black;
         margin-top: 5px;
         margin-bottom: 1px; }
-      main section .galeria-productos .producto-card h4 {
+      main .galeria-productos .producto-card h4 {
         font-size: 15px;
         color: black;
         margin-top: 0px; }
-      main section .galeria-productos .producto-card a {
+      main .galeria-productos .producto-card a {
         color: black;
         margin-bottom: 5px;
         border: black solid 1px;
         border-radius: 5px; }
-        main section .galeria-productos .producto-card a:hover {
+        main .galeria-productos .producto-card a:hover {
           box-shadow: 0 0 0 0.25rem rgba(156, 58, 72, 0.45); }
   main .contacto-titulo {
     display: flex;
