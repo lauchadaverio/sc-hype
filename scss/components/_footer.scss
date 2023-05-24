@@ -1,0 +1,19 @@
+footer{
+    background-color: #a29c9b;
+    padding: 10px;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding-left: 0px;
+        gap: 5px;
+        .whatsapp-footer{
+            display: none;
+        }
+    }
+}
+
+.comocomprar-footer{
+    margin-top: auto;
+}

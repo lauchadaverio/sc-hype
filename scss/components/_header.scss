@@ -1,0 +1,75 @@
+header{
+    background-color: #a29c9b;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    .logo-marca{
+        a{
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+            padding-left: 10px;
+            h1{
+                max-width: 500px;
+                color: black;
+                font-size: 45px;
+                font-weight: bold;
+                margin-right: 0px;
+                &:hover{
+                    color:#9c3a48;
+                }
+            }
+        }
+    }
+    nav{
+        background-color: #a29c9b;
+        margin-left: 0px;
+        div{
+            button{
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            div{
+                ul{
+                    li{
+                        a{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 50px;
+                            padding-left: 10px;
+                            color: black;
+                            &:hover{
+                                color: #7c2131;
+                            }
+                        }
+                    }
+                }
+                form{
+                    input{
+                        border: 3px solid black;
+                        border-radius: 5px;
+                        padding: 5px;
+                        margin-right: 7px;
+                    }
+                    .form-control{
+                        &:focus{
+                            border-color: #9c3a48;
+                            box-shadow: 0 0 0 0.25rem rgba(156,58,72,.25);
+                        }
+                    }
+                    button{
+                        border-radius: 5px;
+                        padding: 5px;
+                        &:hover{
+                            border-color: #9c3a48;
+                            box-shadow: 0 0 0 0.25rem rgba(156,58,72,.25);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

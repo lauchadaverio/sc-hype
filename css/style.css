@@ -60,6 +60,7 @@ header nav{
 .navbar-toogler{
     border: 2px solid black;
 }
+
 header nav button{
     border-radius: 5px;
     padding: 5px;
@@ -253,7 +254,7 @@ main{
 
 .productos_titulo{
     margin-left: 25px;
-        text-align: center;
+    text-align: center;
 } 
 
 .productos_titulo h2{
@@ -302,6 +303,7 @@ main{
     font-size: 30px;
 }
 
+
 .como_comprar_titulo p{
     font-size: 18px;
     width: 500px;
@@ -322,7 +324,7 @@ main{
     margin-top: auto;
 }
 /*---- MAIN - ENVIOS ---- */
-.body-envios{
+.body-rellenado{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -350,6 +352,7 @@ main{
     text-align: center;
     min-width: 200px;
 }
+
 
 .envios_titulo_parrafo_2{
     width: 60%;
