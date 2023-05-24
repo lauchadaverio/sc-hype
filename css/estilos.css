@@ -105,17 +105,17 @@ main {
     height: 100%;
     padding: 10px; }
     main .todas h2 {
-      font-size: 40px;
+      font-size: 35px;
       color: black; }
     main .todas p {
-      font-size: 25px;
+      font-size: 20px;
       color: black; }
       main .todas p span a {
         font-style: italic; }
         main .todas p span a:hover {
           color: #9c3a48; }
     main .todas .todas-boton-2 {
-      font-size: 20px;
+      font-size: 15px;
       padding: 2px;
       font: weight 300px;
       border-radius: 3px;
@@ -126,11 +126,11 @@ main {
   main .zapatillas-destacadas {
     background-color: #7a7575; }
     main .zapatillas-destacadas h2 {
-      font-size: 40px;
+      font-size: 35px;
       margin-bottom: 0px;
       text-align: center; }
     main .zapatillas-destacadas p {
-      font-size: 25px;
+      font-size: 20px;
       text-align: center; }
     main .zapatillas-destacadas .contenedores-producto {
       display: flex;
@@ -218,9 +218,9 @@ main {
     padding-left: 5px;
     padding-right: 5px; }
     main .contacto-titulo h2 {
-      font-size: 30px; }
+      font-size: 35px; }
     main .contacto-titulo p {
-      font-size: 18px;
+      font-size: 20px;
       max-width: 450px;
       text-align: center; }
   main .contacto-formulario {
@@ -290,9 +290,9 @@ main {
     flex-direction: column;
     align-items: center; }
     .main-rellenado .como_comprar_titulo h2 {
-      font-size: 30px; }
+      font-size: 35px; }
     .main-rellenado .como_comprar_titulo p {
-      font-size: 18px;
+      font-size: 20px;
       width: 500px;
       text-align: center; }
   .main-rellenado .como_comprar_video {
@@ -302,7 +302,6 @@ main {
     .main-rellenado .como_comprar_video iframe {
       border: solid 5px black; }
   .main-rellenado .envios_titulo {
-    padding-top: 30px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -312,13 +311,13 @@ main {
       font-size: 35px; }
     .main-rellenado .envios_titulo .envios_titulo_parrafo_1 {
       width: 60%;
-      font-size: 25px;
+      font-size: 20px;
       text-align: center;
       min-width: 200px; }
     .main-rellenado .envios_titulo .envios_titulo_parrafo_2 {
       width: 60%;
       text-align: center;
-      font-size: 22px;
+      font-size: 18px;
       min-width: 200px; }
   .main-rellenado .miscompras-titulo {
     margin-left: 25px;
@@ -326,6 +325,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .main-rellenado .miscompras-titulo h2 {
+      font-size: 35px; }
+    .main-rellenado .miscompras-titulo p {
+      font-size: 20px; }
 
 footer {
   background-color: #a29c9b;
